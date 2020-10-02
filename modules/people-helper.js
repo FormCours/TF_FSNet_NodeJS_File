@@ -21,3 +21,7 @@ const getPeople = (jsonFile) => {
         });
     });
 }
+
+module.exports = {
+    getPeople
+}
