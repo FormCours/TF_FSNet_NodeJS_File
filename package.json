@@ -4,6 +4,7 @@
   "description": "Utilisation du \"file system\" de NodeJS avec un fichier Json",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
