@@ -22,6 +22,29 @@ const getPeople = (jsonFile) => {
     });
 }
 
+const getAverageAge_forEach = (people) => {
+    let total = 0;
+    let count = 0;
+
+    people.filter(p => p.age !== null).forEach(person => {
+        total += person.age;
+        count++;
+    });
+
+    return total / count;
+}
+
+const getAverageAge_reduce = (people) => {
+    const peopleAge = people.filter(p => p.age !== null);
+
+    const total = peopleAge.reduce(
+        (acc, current) => acc + current.age
+    , 0);
+
+    return total / peopleAge.length;
+}
+
 module.exports = {
-    getPeople
+    getPeople,
+    getAverageAge: getAverageAge_forEach
 }

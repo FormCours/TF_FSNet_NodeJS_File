@@ -21,5 +21,7 @@ const app = async () => {
     const people = await peopleHelper.getPeople('./data/people.json');
     displayPeople(people);
 
+    const age = peopleHelper.getAverageAge(people);
+    console.log(`L'age moyen est de ${age}`);
 }
 app();
