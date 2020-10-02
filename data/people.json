@@ -1,0 +1,30 @@
+{
+    "nbPerson": 5,
+    "people" : [
+        {
+            "firstname": "Riri",
+            "lastname": "Duck",
+            "age": 13 
+        },
+        {
+            "firstname": "Balthazar",
+            "lastname": "Picsou",
+            "age": 63 
+        },
+        {
+            "firstname": "Zaza",
+            "lastname": "Vanderquack",
+            "age": 14 
+        },
+        {
+            "firstname": "John",
+            "lastname": "Smith",
+            "age": null 
+        },
+        {
+            "firstname": "Archibald",
+            "lastname": "Gripsou",
+            "age": 61 
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "demo-file-json",
+  "version": "0.1.0",
+  "description": "Utilisation du \"file system\" de NodeJS avec un fichier Json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormCours/TF_FSNet_NodeJS_File.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "FileSystem",
+    "Json",
+    "FSNet"
+  ],
+  "author": "Aurélien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FormCours/TF_FSNet_NodeJS_File/issues"
+  },
+  "homepage": "https://github.com/FormCours/TF_FSNet_NodeJS_File#readme"
+}
